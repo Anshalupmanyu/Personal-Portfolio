@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    background-color: #2C2C2C;
+    font-family: "Poppins", sans-serif;
+    color: #CCCCCC;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 26, 26);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    position: absolute;
+    left: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4A90E2;
+}
+
+/*  */
+
+/* Home */
+
+.home{
+    text-align: center;
+    margin: 175px 300px 175px 300px;
+}
+
+.home p{
+    color: #008080;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.home h1{
+    font-size: 6rem;
+    color: #00B3A6;
+    margin: auto;
+}
+
+.home h3{
+    color: #1E90FF;
+    font-size: 5rem;
+    margin: auto;
+}
+
+
+
+/* Typed js */
+
+#element{
+    color: #1E90FF;
+}
+ /*  */
+
+ /* About Me */
+
+ .about {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content */
+    padding: 40px 20px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin-top: 98px;
+}
+
+ .about h2{
+    font-size: 2rem;
+    text-align: center;
+    
+ }
+
+ .about p{
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+
+ }
+
+ .about img {
+    height: 20vh;
+    max-width: 100%;
+    align-content: center;
+    margin: auto;
+ }
+
+ /* Projects */
+
+ .projects{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(27, 26, 26);
+ }
+
+ .projects h2{
+    font-size: 2rem;
+    margin: auto;
+ }
+
+ .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+    gap: 20px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.project-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C; /* Change the background color as needed */
+    text-decoration: none;
+    color: #CCCCCC; /* Change the text color as needed */
+    height: 200px;
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+}
+
+.tile-content {
+    text-align: center;
+}
+
+.tile-content h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Work exp */
+
+.work-experience {
+    padding: 50px;
+    background-color: rgb(27, 26, 26); /* Dark background for contrast */
+    color: #fff;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #e91e63; /* Pink color for headings */
+}
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #e91e63; /* Timeline line color */
+}
+
+.timeline-content {
+    padding: 15px 25px;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+    width: 50%;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #e91e63;
+}
+
+.timeline-content p {
+    margin: 5px 0;
+}
+
+.timeline-item:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: #e91e63;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
