@@ -127,6 +127,10 @@ body {
     margin: 0 auto;
 }
 
+.tiles {
+    background-color: rgb(27, 26, 26);
+}
+
 .project-tile {
     display: flex;
     justify-content: center;
@@ -154,70 +158,16 @@ body {
 
 /* Work exp */
 
-.work-experience {
+.work-exp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     padding: 50px;
     background-color: rgb(27, 26, 26); /* Dark background for contrast */
     color: #fff;
+
 }
 
-.h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 40px;
-    color: #e91e63; /* Pink color for headings */
-}
-
-.timeline {
-    position: relative;
-    padding: 20px 0;
-    list-style: none;
-    margin: 0;
-}
-
-.timeline-item {
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.timeline-item:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    height: 100%;
-    width: 2px;
-    background: #e91e63; /* Timeline line color */
-}
-
-.timeline-content {
-    padding: 15px 25px;
-    background: #333;
-    color: #fff;
-    border-radius: 8px;
-    width: 50%;
-    position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.timeline-content h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #e91e63;
-}
-
-.timeline-content p {
-    margin: 5px 0;
-}
-
-.timeline-item:after {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    background: #e91e63;
-    border-radius: 50%;
-    transform: translateX(-50%);
+.work-exp h2{
+    color: #CCCCCC;
 }
